@@ -1,0 +1,59 @@
+[2021-05-05 18:46:05.972] [exthost] [info] extension host started
+[2021-05-05 18:46:06.076] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-05 18:46:06.076] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-05 18:46:06.090] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-05 18:46:06.091] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-05 18:46:06.093] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-05 18:46:06.095] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/git/dist/main
+[2021-05-05 18:46:06.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-05 18:46:06.229] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-05-05 18:46:06.239] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-05 18:46:06.246] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-05 18:46:06.502] [exthost] [info] eager extensions activated
+[2021-05-05 18:46:06.520] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-05 18:46:06.520] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-05 18:46:06.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:06.531] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-05 18:46:06.540] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:06.541] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-05 18:46:06.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:06.543] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-05 18:46:06.544] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:06.544] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension
+[2021-05-05 18:46:33.527] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-05-05 18:46:34.536] [exthost] [info] exiting with code 0
+[2021-05-05 18:46:36.088] [exthost] [info] extension host started
+[2021-05-05 18:46:36.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-05 18:46:36.296] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-05 18:46:36.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-05 18:46:36.320] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-05 18:46:36.323] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-05 18:46:36.323] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/git/dist/main
+[2021-05-05 18:46:36.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-05 18:46:36.528] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-05-05 18:46:36.603] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-05 18:46:36.604] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-05 18:46:37.052] [exthost] [info] ExtensionService#_doActivateExtension peterjohnhunt.wordpress-suite {"startup":true,"extensionId":{"value":"peterjohnhunt.wordpress-suite","_lower":"peterjohnhunt.wordpress-suite"},"activationEvent":"workspaceContains:**/*.php"}
+[2021-05-05 18:46:37.052] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/peterjohnhunt.wordpress-suite-0.0.6/out/extension
+[2021-05-05 18:46:37.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-05 18:46:37.107] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-05 18:46:37.125] [exthost] [info] eager extensions activated
+[2021-05-05 18:46:37.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:37.238] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-05 18:46:37.246] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:37.246] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-05 18:46:37.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:37.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-05 18:46:37.250] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-05-05 18:46:37.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension
+[2021-05-05 18:46:43.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-05-05 18:46:43.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/62/usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-05-05 18:46:43.189] [exthost] [info] ExtensionService#_doActivateExtension johnbillion.vscode-wordpress-hooks {"startup":false,"extensionId":{"value":"johnbillion.vscode-wordpress-hooks","_lower":"johnbillion.vscode-wordpress-hooks"},"activationEvent":"onLanguage:php"}
+[2021-05-05 18:46:43.192] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/johnbillion.vscode-wordpress-hooks-0.5.4/out/extension.js
+[2021-05-09 21:42:56.495] [exthost] [info] ExtensionService#_doActivateExtension vincaslt.highlight-matching-tag {"startup":false,"extensionId":{"value":"vincaslt.highlight-matching-tag","_lower":"vincaslt.highlight-matching-tag"},"activationEvent":"*"}
+[2021-05-09 21:42:56.495] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension
+[2021-05-09 21:42:58.152] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":false,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2021-05-09 21:42:58.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/formulahendry.auto-close-tag-0.5.10/out/src/extension
+[2021-05-09 21:42:59.769] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":false,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-05-09 21:42:59.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-05-10 02:00:04.147] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552

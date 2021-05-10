@@ -1,0 +1,13 @@
+[2021-05-02 01:04:06.041] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-05-03 01:09:31.604] [sharedprocess] [info] Installing extension: peterjohnhunt.wordpress-suite
+[2021-05-03 01:09:31.838] [sharedprocess] [info] Downloaded extension: peterjohnhunt.wordpress-suite undefined
+[2021-05-03 01:09:31.921] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.59c8d234-4e92-4915-8a9a-cb9bce0b3bda: peterjohnhunt.wordpress-suite
+[2021-05-03 01:09:31.929] [sharedprocess] [info] Renamed to /root/.vscode/extensions/peterjohnhunt.wordpress-suite-0.0.6
+[2021-05-03 01:09:31.930] [sharedprocess] [info] Installation completed. peterjohnhunt.wordpress-suite
+[2021-05-03 01:09:31.938] [sharedprocess] [info] Extensions installed successfully: peterjohnhunt.wordpress-suite
+[2021-05-03 01:09:53.645] [sharedprocess] [info] Installing extension: johnbillion.vscode-wordpress-hooks
+[2021-05-03 01:09:53.904] [sharedprocess] [info] Downloaded extension: johnbillion.vscode-wordpress-hooks undefined
+[2021-05-03 01:09:54.026] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.81eecb56-00c9-40ff-8238-e0b6abfd0fea: johnbillion.vscode-wordpress-hooks
+[2021-05-03 01:09:54.036] [sharedprocess] [info] Renamed to /root/.vscode/extensions/johnbillion.vscode-wordpress-hooks-0.5.4
+[2021-05-03 01:09:54.038] [sharedprocess] [info] Installation completed. johnbillion.vscode-wordpress-hooks
+[2021-05-03 01:09:54.042] [sharedprocess] [info] Extensions installed successfully: johnbillion.vscode-wordpress-hooks

@@ -1,0 +1,119 @@
+Looking for git in: git
+Using git 2.25.1 from git
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/404.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/archive.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/css' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/footer.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/front-page.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/functions.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/header.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/images' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/includes' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/index.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/js' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/page.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/search.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/single.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/style.css' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/template-contactus.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme/~' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/jwcontracting.com/wp-content/themes/jwTheme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

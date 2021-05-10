@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Work+Sans:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     margin: 0;
     padding: 0;
@@ -42,6 +48,12 @@ header {
     border: grey 1px solid;
     border-radius: 25px;
 
+}
+
+.business-name {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    border-bottom: 1px solid black;
 }
 
 .contact {

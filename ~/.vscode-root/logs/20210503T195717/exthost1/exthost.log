@@ -126,3 +126,8 @@
 [2021-05-09 21:42:59.910] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":false,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
 [2021-05-09 21:42:59.910] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
 [2021-05-10 02:00:04.148] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+[2021-05-10 02:00:20.213] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+[2021-05-10 02:00:25.304] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+[2021-05-10 02:00:49.061] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+[2021-05-10 02:00:54.142] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552
+[2021-05-10 02:01:38.910] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 552

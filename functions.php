@@ -300,8 +300,8 @@ function customer_mailer($phpmailer) {
     $phpmailer->Host = 'smtp.gmail.com';
     $phpmailer->FromName = "Cory Paulley";
     $phpmailer->Port = 587;
-    $phpmailer->Username = 'cory.paulley@gmail.com';
-    $phpmailer->Password = 'TheWheelofTimeTurns';
+    $phpmailer->Username = '';
+    $phpmailer->Password = '';
     $phpmailer->SMTPAuth = true;
     $phpmailer->SMTPSecure = 'tls';
     $phpmailer->IsSMTP();

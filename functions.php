@@ -34,7 +34,7 @@ add_theme_support('widgets');
 
 register_nav_menus( array(
     'top-menu' => 'Top Menu Location',
-    'mobile-menu' => 'Mobile Menu Location', 
+    'footer-menu' => 'Footer Menu Location', 
 ) );
 
 
@@ -286,29 +286,186 @@ register_nav_menu('main-menu', 'Main menu');
 //#########################
 
 
+//#########################
+//                        #
+//                        #
+// Theme Options Panel    #
+//                        #
+//                        #
+//#########################
+
+function jwt_add_theme_options_panel($wp_customize) {
+  $wp_customize->add_panel('jwt_theme_options', array(
+    'title' => 'Theme Options',
+    'description' => 'Modify color schemes, header and footer text, and any theme related attributes here!',
+  ));
+}
+add_action('customize_register', 'jwt_add_theme_options_panel');
+
 
 //#########################
 //                        #
 //                        #
-// Custom Mailer          #
-// Does not work          #
+// End Options Panel      #
+//                        #
 //                        #
 //#########################
 
-add_action('phpmailer_init', 'custome_mailer');
-function customer_mailer($phpmailer) {
-    $phpmailer->Host = 'smtp.gmail.com';
-    $phpmailer->FromName = "Cory Paulley";
-    $phpmailer->Port = 587;
-    $phpmailer->Username = '';
-    $phpmailer->Password = '';
-    $phpmailer->SMTPAuth = true;
-    $phpmailer->SMTPSecure = 'tls';
-    $phpmailer->IsSMTP();
-    
+
+
+//#########################
+//                        #
+//                        #
+// Custom Color Picker    #
+//   JWT Colors           #
+//                        #
+//#########################
+
+function jwt_customizer_add_colorPicker($wp_customize) {
+  // Add new section: JWT Colors
+
+  
+
+  $wp_customize->add_section( 'jwt_color_section', array(
+    'title' => 'JWT Colors',
+    'description' => 'Set colors of background and links',
+    'priority' => '1',
+    'panel' => 'jwt_theme_options',
+  ));
+
+  // Add Settings 
+  $wp_customize->add_setting( 'jwt_theme_color' , array(
+    'default' => '#cccccc',
+  ));
+
+  $wp_customize->add_setting( 'jwt_header_bgcolor', array(
+    'default' => '#cccccc',
+  ));
+
+  $wp_customize->add_setting( 'jwt_callus_color', array(
+    'default' => '#000000',
+  ));
+
+  // Add Controls
+  $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'jwt_theme_color', array(
+    'label' => 'Theme Color',
+    'section' => 'jwt_color_section',
+    'settings' => 'jwt_theme_color',
+  )));
+
+  $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'jwt_header_bgcolor', array(
+    'label' => 'Header Background',
+    'section' => 'jwt_color_section',
+    'settings' => 'jwt_header_bgcolor',
+  )));
+
+  $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'jwt_callus_color', array(
+    'label' => 'Call Us Color',
+    'section' => 'jwt_color_section',
+    'settings' => 'jwt_callus_color',
+  )));  
 
 }
 
+add_action( 'customize_register', 'jwt_customizer_add_colorPicker');
+
+//#########################
+//                        #
+//                        #
+// End Color Picker code  #
+//                        #
+//                        #
+//#########################
+
+//#########################
+//                        #
+//                        #
+// Customize foot contact #
+//                        #
+//                        #
+//#########################
+
+function jwt_custom_footer($wp_customize) {
+  
+  $wp_customize->add_section('jwt_contact_options', array(
+    'title' => 'Contact Options',
+    'priority' => '2',
+    'panel' => 'jwt_theme_options',
+  ));
+
+  // Phone Number Text
+  $wp_customize->add_setting('jwt_phone_number_text', array(
+    'default' => '555-555-5555',
+    'sanitize_callback' => 'sanitize_text_field',
+    'transport' => 'refresh',
+  ));
+
+  // Phone Number tel
+  $wp_customize->add_setting('jwt_phone_number_tel', array(
+    'default' => '555-555-5555',
+    'sanitize_callback' => 'sanitize_text_field',
+    'transport' => 'refresh',
+  ));
+
+  // Address
+  $wp_customize->add_setting('jwt_address_text', array(
+    'default' => 'To be filled in customize panel',
+    'sanitize_callback' => 'sanitize_text_field',
+    'transport' => 'refresh',
+  ));
+
+  // Email
+  $wp_customize->add_setting('jwt_email_setting', array(
+    'default' => get_bloginfo('admin_email'),
+    'sanitize_callback' => 'sanitize_text_field',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control('jwt_phone_number_text', array(
+    'type' => 'text',
+    'priority' => 10,
+    'section' => 'jwt_contact_options',
+    'label' => 'Phone Number Text',
+    'description' => 'The phone number to be displayed on the footer',
+  ));
+
+  $wp_customize->add_control('jwt_phone_number_tel', array(
+    'type' => 'number',
+    'priority' => 10,
+    'section' => 'jwt_contact_options', 
+    'label' => 'Phone Number Call',
+    'description' => 'The unhighenated phone number for the call button',
+  ));
+
+  $wp_customize->add_control('jwt_address_text', array(
+    'type' => 'text',
+    'priority' => 10,
+    'section' => 'jwt_contact_options', 
+    'label' => 'Address Text',
+    'description' => 'The Address text',
+  ));
+
+  $wp_customize->add_control('jwt_email_setting', array(
+    'type' => 'email',
+    'priority' => 10,
+    'section' => 'jwt_contact_options', 
+    'label' => 'Email',
+    'description' => 'Example: "admin@test.com"',
+  ));
+  
+
+}
+
+add_action('customize_register', 'jwt_custom_footer');
+
+
+//#########################
+//                        #
+//                        #
+// End Foot Contact cust. #
+//                        #
+//                        #
+//#########################
 
 
 
@@ -316,12 +473,54 @@ function customer_mailer($phpmailer) {
 //#########################
 //                        #
 //                        #
-//End custom mailer       #
+// JWT Style Settings    #
 //                        #
 //                        #
 //#########################
-
-
-
-
 ?>
+
+<?php 
+function jwt_generate_theme_option_css(){
+  $themeColor = get_theme_mod('jwt_theme_color');
+  $header_bgcolor = get_theme_mod('jwt_header_bgcolor');
+  $callus_color = get_theme_mod('jwt_callus_color');
+
+  if(!empty($themeColor)):
+  ?>
+  <style>
+    header {
+      background-color: <?php echo $header_bgcolor; ?>;
+    }
+
+    .contact {
+      background-color: <?php echo $themeColor; ?>;
+    }
+
+    .footer-wrapper {
+      background-color: <?php echo $themeColor ?>;
+    }
+
+    .phone {
+      color: <?php echo $callus_color; ?>;
+    }
+
+
+
+  </style>
+  <?php
+  endif;
+
+}
+
+add_action('wp_head', 'jwt_generate_theme_option_css');
+
+//#########################
+//                        #
+//                        #
+// End JWT Style Settings#
+//                        #
+//                        #
+//#########################
+?>
+
+

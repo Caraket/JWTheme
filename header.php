@@ -41,7 +41,7 @@
 
             <div class="col-lg-12 pe-0">
                 <header>    
-                    <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <nav class="navbar navbar-expand-md navbar-light">
                         <div class="container-fluid">
                             
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">

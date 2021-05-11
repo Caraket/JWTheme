@@ -1,0 +1,526 @@
+[2021-05-10 17:49:05.551] [renderer1] [error] invalid syntax at line 7 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^: Error: invalid syntax at line 7 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 17:50:04.793] [renderer1] [error] invalid syntax at line 8 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^: Error: invalid syntax at line 8 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 17:51:47.242] [renderer1] [error] invalid syntax at line 10 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^: Error: invalid syntax at line 10 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 17:51:48.454] [renderer1] [error] invalid syntax at line 10 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^: Error: invalid syntax at line 10 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 17:51:49.801] [renderer1] [error] invalid syntax at line 10 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^: Error: invalid syntax at line 10 col 51:
+
+              <div class="col-lg-7 footer-navigation">
+                                                    ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 22:05:21.824] [renderer1] [error] invalid syntax at line 411 col 55:
+
+  add_action('wp_head', 'jwt_generate_theme_option_css');
+                                                        ^: Error: invalid syntax at line 411 col 55:
+
+  add_action('wp_head', 'jwt_generate_theme_option_css');
+                                                        ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 22:28:39.300] [renderer1] [error] invalid syntax at line 419 col 1203:
+
+      'default' => ',
+    'sanitize_callback' => 'sanitize_text_field',
+    'transport' => 'refresh',
+  ));
+  
+
+}
+
+add_action('customize_register', 'jwt_custom_footer');
+
+
+//#########################
+//                        #
+//                        #
+// End Foot Contact cust. #
+//                        #
+//                        #
+//#########################
+
+
+
+
+//#########################
+//                        #
+//                        #
+// JWT Style Settings    #
+//                        #
+//                        #
+//#########################
+?>
+
+<?php 
+function jwt_generate_theme_option_css(){
+  $themeColor = get_theme_mod('jwt_theme_color');
+  $header_bgcolor = get_theme_mod('jwt_header_bgcolor');
+  $callus_color = get_theme_mod('jwt_callus_color');
+
+  if(!empty($themeColor)):
+  ?>
+  <style>
+    header {
+      background-color: <?php echo $header_bgcolor; ?>;
+    }
+
+    .contact {
+      background-color: <?php echo $themeColor; ?>;
+    }
+
+    .footer-wrapper {
+      background-color: <?php echo $themeColor ?>;
+    }
+
+    .phone {
+      color: <?php echo $callus_color; ?>;
+    }
+
+
+
+  </style>
+  <?php
+  endif;
+
+}
+
+add_action('wp_head', 'jwt_generate_theme_option_css');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^: Error: invalid syntax at line 419 col 1203:
+
+      'default' => ',
+    'sanitize_callback' => 'sanitize_text_field',
+    'transport' => 'refresh',
+  ));
+  
+
+}
+
+add_action('customize_register', 'jwt_custom_footer');
+
+
+//#########################
+//                        #
+//                        #
+// End Foot Contact cust. #
+//                        #
+//                        #
+//#########################
+
+
+
+
+//#########################
+//                        #
+//                        #
+// JWT Style Settings    #
+//                        #
+//                        #
+//#########################
+?>
+
+<?php 
+function jwt_generate_theme_option_css(){
+  $themeColor = get_theme_mod('jwt_theme_color');
+  $header_bgcolor = get_theme_mod('jwt_header_bgcolor');
+  $callus_color = get_theme_mod('jwt_callus_color');
+
+  if(!empty($themeColor)):
+  ?>
+  <style>
+    header {
+      background-color: <?php echo $header_bgcolor; ?>;
+    }
+
+    .contact {
+      background-color: <?php echo $themeColor; ?>;
+    }
+
+    .footer-wrapper {
+      background-color: <?php echo $themeColor ?>;
+    }
+
+    .phone {
+      color: <?php echo $callus_color; ?>;
+    }
+
+
+
+  </style>
+  <?php
+  endif;
+
+}
+
+add_action('wp_head', 'jwt_generate_theme_option_css');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-10 22:36:12.576] [renderer1] [error] invalid syntax at line 452 col 1162:
+
+      'label' => ',
+    'description' => 'The Address text',
+  ));
+  
+
+}
+
+add_action('customize_register', 'jwt_custom_footer');
+
+
+//#########################
+//                        #
+//                        #
+// End Foot Contact cust. #
+//                        #
+//                        #
+//#########################
+
+
+
+
+//#########################
+//                        #
+//                        #
+// JWT Style Settings    #
+//                        #
+//                        #
+//#########################
+?>
+
+<?php 
+function jwt_generate_theme_option_css(){
+  $themeColor = get_theme_mod('jwt_theme_color');
+  $header_bgcolor = get_theme_mod('jwt_header_bgcolor');
+  $callus_color = get_theme_mod('jwt_callus_color');
+
+  if(!empty($themeColor)):
+  ?>
+  <style>
+    header {
+      background-color: <?php echo $header_bgcolor; ?>;
+    }
+
+    .contact {
+      background-color: <?php echo $themeColor; ?>;
+    }
+
+    .footer-wrapper {
+      background-color: <?php echo $themeColor ?>;
+    }
+
+    .phone {
+      color: <?php echo $callus_color; ?>;
+    }
+
+
+
+  </style>
+  <?php
+  endif;
+
+}
+
+add_action('wp_head', 'jwt_generate_theme_option_css');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^: Error: invalid syntax at line 452 col 1162:
+
+      'label' => ',
+    'description' => 'The Address text',
+  ));
+  
+
+}
+
+add_action('customize_register', 'jwt_custom_footer');
+
+
+//#########################
+//                        #
+//                        #
+// End Foot Contact cust. #
+//                        #
+//                        #
+//#########################
+
+
+
+
+//#########################
+//                        #
+//                        #
+// JWT Style Settings    #
+//                        #
+//                        #
+//#########################
+?>
+
+<?php 
+function jwt_generate_theme_option_css(){
+  $themeColor = get_theme_mod('jwt_theme_color');
+  $header_bgcolor = get_theme_mod('jwt_header_bgcolor');
+  $callus_color = get_theme_mod('jwt_callus_color');
+
+  if(!empty($themeColor)):
+  ?>
+  <style>
+    header {
+      background-color: <?php echo $header_bgcolor; ?>;
+    }
+
+    .contact {
+      background-color: <?php echo $themeColor; ?>;
+    }
+
+    .footer-wrapper {
+      background-color: <?php echo $themeColor ?>;
+    }
+
+    .phone {
+      color: <?php echo $callus_color; ?>;
+    }
+
+
+
+  </style>
+  <?php
+  endif;
+
+}
+
+add_action('wp_head', 'jwt_generate_theme_option_css');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+    at Lexer._token (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:533:13)
+    at Lexer.next (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/node_modules/moo/moo.js:480:19)
+    at Object.parseTags (/root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/tagParser.js:83:36)
+    at /root/.vscode/extensions/vincaslt.highlight-matching-tag-0.10.0/out/src/extension.js:47:36
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at y.$acceptEditorPropertiesChanged (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:45786)
+    at u._doInvokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/snap/code/62/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)

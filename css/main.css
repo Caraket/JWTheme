@@ -135,7 +135,41 @@ header {
    text-align: center; 
 }
 
+/* Main Content Styles */
 
+.content { 
+    margin: 50px 0 0 0;
+}
+
+.wp-block-column {
+    padding: 0 20px 0 20px;
+}
+
+.wp-block-column p {
+    margin: 20% 0 0 0;
+    
+    text-align: left;
+}
+
+.wp-block-column:nth-of-type(odd) p {
+    padding: 0 0 0 50px;
+}
+
+.wp-block-column:nth-of-type(even) p {
+    padding: 0 50px 0 0;
+}
+
+/* .wp-block-image {
+    display: flex;
+    justify-content: center;
+}
+
+.size-large img {
+    width: 700px;
+    height: auto;
+} */
+
+/* Media Queries */
 @media only screen and (max-width: 800px) {
     .footer-nav li{
         justify-content: center;

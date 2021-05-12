@@ -48,7 +48,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             
-                            <div class="collapse navbar-collapse mb-5" id="main-menu">
+                            <div class="collapse navbar-collapse" id="main-menu">
                                 <?php
                                 wp_nav_menu(array(
                                     'theme_location' => 'top-menu',

@@ -1,14 +1,16 @@
 <footer>
     <div class="footer-wrapper">
         <div class="row">
-            <div class="col-lg-5 footer-contact">
-                <p>Phone: <a href="tel:<?php echo get_theme_mod('jwt_phone_number_text'); ?>"><?php echo get_theme_mod('jwt_phone_number_text'); ?></a></p>
+        <div class="col-lg-3 col-md col-sm"></div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-contact">
+                <p><a href="tel:<?php echo get_theme_mod('jwt_phone_number_text'); ?>"><?php echo get_theme_mod('jwt_phone_number_text'); ?></a></p>
                 <!-- 218-256-4917 -->
                 <p><a href="sms:<?php echo get_theme_mod('jwt_phone_number_tel'); ?>">Send a text</a></p>
-                <p>Address: <?php echo get_theme_mod('jwt_address_text'); ?></p>
-                <p>Email: <a href="mailto:<?php echo get_theme_mod('jwt_email_setting'); ?>"><?php echo get_theme_mod('jwt_email_setting'); ?></a></p>
+                <p><?php echo get_theme_mod('jwt_address_text'); ?></p>
+                <p><a href="mailto:<?php echo get_theme_mod('jwt_email_setting'); ?>"><?php echo get_theme_mod('jwt_email_setting'); ?></a></p>
             </div>
-            <div class="col-lg-7 footer-navigation">
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-navigation">
                 <?php 
                     wp_nav_menu(array(
                         'theme_location' => 'footer-menu',
@@ -21,6 +23,8 @@
                     ));               
                 ?>
             </div>
+            <div class="col-lg-3 col-md col-sm"></div>
+
         </div>
     </div>
 </footer>

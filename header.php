@@ -39,7 +39,7 @@
         </div>
         <div class="row">
 
-            <div class="col-lg-12 pe-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 pe-0">
                 <header>    
                     <nav class="navbar navbar-expand-md navbar-light">
                         <div class="container-fluid">
@@ -48,7 +48,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             
-                            <div class="collapse navbar-collapse" id="main-menu">
+                            <div class="collapse navbar-collapse mb-5" id="main-menu">
                                 <?php
                                 wp_nav_menu(array(
                                     'theme_location' => 'top-menu',

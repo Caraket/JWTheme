@@ -16,7 +16,7 @@
     <div class="row">
         <div class="contact">
             <p class="contact-pwrapper"> 
-                <a class="phone" href="tel:2182564917">Call Us (218) 256-4917</a> 
+                <a class="phone" href="tel:2182564917">Call Us <?php echo get_theme_mod('jwt_phone_number_text'); ?></a> 
                 <a class="icons" target="_blank" href="https://www.facebook.com/JW-contracting-LLC-106729497594131"><i class="fab fa-facebook-square"></i></a> 
                 <a class="icons" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a> 
                 <a class="icons" target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>

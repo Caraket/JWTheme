@@ -5,6 +5,8 @@ function jwt_generate_theme_option_css(){
   $callus_color = get_theme_mod('jwt_callus_color');
   $logo_head_bgcolor = get_theme_mod('jwt_logo_head_bgcolor');
   $featured_image_text_color = get_theme_mod('jwt_featured_image_text_color');
+  $featured_image_horizontal = get_theme_mod('jwt_featured_image_horizontal');
+  $featured_image_vertical = get_theme_mod('jwt_featured_image_vertical');
 
   if(!empty($themeColor)):
   ?>
@@ -31,6 +33,8 @@ function jwt_generate_theme_option_css(){
 
     .featured-text {
       color: <?php echo $featured_image_text_color; ?>;
+      left: <?php echo $featured_image_horizontal; ?>px;
+      bottom: <?php echo $featured_image_vertical; ?>px;
     }
 
 

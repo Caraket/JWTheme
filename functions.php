@@ -178,6 +178,13 @@ get_template_part( 'PHP/customization', 'panels' );
 
 get_template_part( 'PHP/customization', 'header' );
 
+//############################
+// Featured Image Options    #
+//############################
+
+get_template_part( 'PHP/customization', 'featureImage' );
+
+
 //######################################
 // Customize footer contact information#
 //######################################

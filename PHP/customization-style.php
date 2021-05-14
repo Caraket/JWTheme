@@ -4,6 +4,7 @@ function jwt_generate_theme_option_css(){
   $header_bgcolor = get_theme_mod('jwt_navigation_bgcolor');
   $callus_color = get_theme_mod('jwt_callus_color');
   $logo_head_bgcolor = get_theme_mod('jwt_logo_head_bgcolor');
+  $featured_image_text_color = get_theme_mod('jwt_featured_image_text_color');
 
   if(!empty($themeColor)):
   ?>
@@ -25,7 +26,11 @@ function jwt_generate_theme_option_css(){
     }
 
     .logo-head{
-      background-color: <?php echo $logo_head_bgcolor; ?>
+      background-color: <?php echo $logo_head_bgcolor; ?>;
+    }
+
+    .featured-text {
+      color: <?php echo $featured_image_text_color; ?>;
     }
 
 

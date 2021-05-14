@@ -3,7 +3,7 @@ function jwt_custom_footer($wp_customize) {
   
   $wp_customize->add_section('jwt_contact_options', array(
     'title' => 'Contact Options',
-    'priority' => '2',
+    'priority' => 3,
     'panel' => 'jwt_theme_options',
   ));
 
@@ -35,6 +35,8 @@ function jwt_custom_footer($wp_customize) {
     'transport' => 'refresh',
   ));
 
+  //Add Controls
+  //Phone number text
   $wp_customize->add_control('jwt_phone_number_text', array(
     'type' => 'text',
     'priority' => 10,
@@ -43,6 +45,7 @@ function jwt_custom_footer($wp_customize) {
     'description' => 'The phone number to be displayed on the footer',
   ));
 
+  //Phone number tel: 'no dashes'
   $wp_customize->add_control('jwt_phone_number_tel', array(
     'type' => 'number',
     'priority' => 10,

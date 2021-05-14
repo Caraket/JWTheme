@@ -63,7 +63,7 @@
             'type' => 'number',
             'priority' => 10,
             'section' => 'jwt_featured_image_section',
-            'description' => 'The horizontal setting of the image text in %.'
+            'description' => 'The horizontal setting of the image text in pixels.'
         ));
 
         //Featured Image Vertial Location control
@@ -71,7 +71,7 @@
             'type' => 'number',
             'priority' => 10,
             'section' => 'jwt_featured_image_section',
-            'description' => 'The vertical setting of the image text in %.'
+            'description' => 'The vertical setting of the image text in pixels.'
         ));
 
     }

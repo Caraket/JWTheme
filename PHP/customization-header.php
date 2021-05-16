@@ -30,6 +30,11 @@
         $wp_customize->add_setting( 'jwt_callus_color', array(
           'default' => '#000000',
         ));
+
+        // Nav Header isRounded?
+        $wp_customize->add_setting( 'jwt_nav_header_isRounded', array(
+          'default' => '0',
+        ));
       
         
       
@@ -62,6 +67,14 @@
           'section' => 'jwt_header_color_section',
           'settings' => 'jwt_callus_color',
         )));  
+
+        // Nav Header isRounded?
+        $wp_customize->add_control('jwt_nav_header_isRounded', array(
+          'type' => 'text',
+          'section' => 'jwt_header_color_section',
+          'settings' => 'jwt_nav_header_isRounded',
+          'label' => __('Navbar rounded?'),
+        ));
       
       
       }

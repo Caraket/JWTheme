@@ -7,16 +7,21 @@ function jwt_generate_theme_option_css(){
   $featured_image_text_color = get_theme_mod('jwt_featured_image_text_color');
   $featured_image_horizontal = get_theme_mod('jwt_featured_image_horizontal');
   $featured_image_vertical = get_theme_mod('jwt_featured_image_vertical');
+  $navbar_rounded = get_theme_mod('jwt_nav_header_isRounded');
 
   if(!empty($themeColor)):
   ?>
   <style>
     header {
       background-color: <?php echo $header_bgcolor; ?>;
+      border-top-left-radius: <?php echo $navbar_rounded; ?>px;
+      border-top-right-radius: <?php echo $navbar_rounded; ?>px;
     }
 
     .contact {
       background-color: <?php echo $themeColor; ?>;
+      border-bottom-left-radius: <?php echo $navbar_rounded; ?>px;
+      border-bottom-right-radius: <?php echo $navbar_rounded; ?>px;
     }
 
     .footer-wrapper {
